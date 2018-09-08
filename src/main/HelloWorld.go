@@ -6,7 +6,7 @@ import (
 )
 
 func main(){
-	fmt.Print("Hello go")
-
+	fmt.Println("Hello go")
 	mylog.GenLog("你好！")
+	mylog.GenLog("我是程序员！")
 }
